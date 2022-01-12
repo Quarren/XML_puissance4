@@ -11,14 +11,6 @@ elementFormDefault="qualified">
 					<xsd:attribute name="joueur" type="xsd:boolean"/>
 					<xsd:attribute name="coup" type="xsd:integer"/>
 				</xsd:element>
-				
-				<!--
-				<xsd:element name="ligne">
-				<xsd:element name="ligne">
-				<xsd:element name="ligne">
-				<xsd:element name="ligne">
-				<xsd:element name="ligne">
-				-->
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
