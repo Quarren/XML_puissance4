@@ -4,15 +4,17 @@ targetNamespace="http:/wic.uga.fr/ns"
 xmlns="http://wic.uga.fr/ns"
 elementFormDefault="qualified">
 
-	<xsd:element name="colonne" minOccurs="7" maxOccurs="7">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element name="ligne" type="xsd:string" minOccurs="6" maxOccurs="6">
-					<xsd:attribute name="joueur" type="xsd:boolean"/>
-					<xsd:attribute name="coup" type="xsd:integer"/>
-				</xsd:element>
-			</xsd:sequence>
-		</xsd:complexType>
+	<xsd:element name="grille">
+		<xsd:element name="colonne" minOccurs="7" maxOccurs="7">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="ligne" type="xsd:string" minOccurs="6" maxOccurs="6">
+						<xsd:attribute name="joueur" type="xsd:boolean"/>
+						<xsd:attribute name="coup" type="xsd:integer"/>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
 	</xsd:element>
 
 </xsd:schema>
