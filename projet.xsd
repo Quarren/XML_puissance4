@@ -4,7 +4,9 @@ targetNamespace="http:/wic.uga.fr/ns"
 xmlns="http://wic.uga.fr/ns"
 elementFormDefault="qualified">
 
-	<xsd:element name="grille">
+	<xsd:element name="grille" type="grilleType" />
+	
+	<xsd:complexType name="grilleType">
 		<xsd:element name="colonne" minOccurs="7" maxOccurs="7">
 			<xsd:complexType>
 				<xsd:sequence>
@@ -15,6 +17,6 @@ elementFormDefault="qualified">
 				</xsd:sequence>
 			</xsd:complexType>
 		</xsd:element>
-	</xsd:element>
+	</xsd:complexType>
 
 </xsd:schema>
