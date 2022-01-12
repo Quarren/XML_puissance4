@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http:/wic.uga.fr/ns"
+xmlns="http://wic.uga.fr/ns"
+elementFormDefault="qualified">
+
+	<xsd:element name="colonne">
+		<xsd:complexType>
+			<xsd:sequence>
+			
+				<xsd:attribute name=""
+			
+				<xsd:element name="ligne" type="xsd:string">
+					<xsd:attribute name="joueur" type="xsd:boolean"/>
+					<xsd:attribute name="coup" type="xsd:integer"/>
+					<xsd:attribute name="niveau" type="xsd:integer" value="1"/>
+				</xsd:element>
+				
+				<xsd:element name="ligne" type="xsd:string">
+					<xsd:attribute name="joueur" type="xsd:boolean"/>
+					<xsd:attribute name="coup" type="xsd:integer"/>
+					<xsd:attribute name="niveau" type="xsd:integer" value="2"/>
+				</xsd:element>
+
+				<xsd:element name="ligne" type="xsd:string">
+					<xsd:attribute name="joueur" type="xsd:boolean"/>
+					<xsd:attribute name="coup" type="xsd:integer"/>
+					<xsd:attribute name="niveau" type="xsd:integer" value="3"/>
+				</xsd:element>
+
+				<xsd:element name="ligne" type="xsd:string">
+					<xsd:attribute name="joueur" type="xsd:boolean"/>
+					<xsd:attribute name="coup" type="xsd:integer"/>
+					<xsd:attribute name="niveau" type="xsd:integer" value="4"/>
+				</xsd:element>
+
+				<xsd:element name="ligne" type="xsd:string">
+					<xsd:attribute name="joueur" type="xsd:boolean"/>
+					<xsd:attribute name="coup" type="xsd:integer"/>
+					<xsd:attribute name="niveau" type="xsd:integer" value="5"/>
+				</xsd:element>
+				
+				<xsd:element name="ligne" type="xsd:string">
+					<xsd:attribute name="joueur" type="xsd:boolean"/>
+					<xsd:attribute name="coup" type="xsd:integer"/>
+					<xsd:attribute name="niveau" type="xsd:integer" value="6"/>
+				</xsd:element>
+
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	
+
+</xsd:schema>
