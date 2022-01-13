@@ -2,22 +2,23 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 elementFormDefault="qualified">
 
-<xsd:element name="grille">	
-	<xsd:complexType>
-		<xsd:sequence minOccurs="7" maxOccurs="7">
-			<xsd:element name="colonne">
-				<xsd:complexType>
-					<xsd:sequence minOccurs="6" maxOccurs="6">
-						<xsd:element name="ligne">
-							<xsd:complexType>
-								<xsd:attribute name="joueur" type="xsd:string"/>
-								<xsd:attribute name="coup" type="xsd:integer"/>							</xsd:complexType>
-						</xsd:element>
-					</xsd:sequence>
-				</xsd:complexType>
-			</xsd:element>
-		</xsd:sequence>
-	</xsd:complexType>
-</xsd:element>
+	<xsd:element name="grille">	
+		<xsd:complexType>
+			<xsd:sequence minOccurs="7" maxOccurs="7">
+				<xsd:element name="colonne">
+					<xsd:complexType>
+						<xsd:sequence minOccurs="6" maxOccurs="6">
+							<xsd:element name="ligne">
+								<xsd:complexType>
+									<xsd:attribute name="joueur" type="xsd:string"/>
+									<xsd:attribute name="coup" type="xsd:integer"/>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
 
 </xsd:schema>
