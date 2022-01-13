@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grille
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="projet.xsd
+">
+	<colonne>
+		<ligne/>
+		<ligne />
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+	</colonne>
+	<colonne>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+	</colonne>
+	<colonne>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+	</colonne>
+	<colonne>
+		<ligne joueur="O" coup="1"/>
+		<ligne joueur="O" coup="2"/>
+		<ligne joueur="O" coup="3"/>
+		<ligne joueur="O" coup="4"/>
+		<ligne/>
+		<ligne/>
+	</colonne>
+	<colonne>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+	</colonne>
+	<colonne>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+	</colonne>
+	<colonne>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+		<ligne/>
+	</colonne>
+</grille>
