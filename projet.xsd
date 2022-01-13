@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-targetNamespace="http:/wic.uga.fr/ns"
-xmlns="http://wic.uga.fr/ns"
 elementFormDefault="qualified">
 
-	<xsd:element name="grille" type="grilleType" />
-	
-	<xsd:complexType name="grilleType">
-		<xsd:element name="colonne" minOccurs="7" maxOccurs="7">
-			<xsd:complexType>
-				<xsd:sequence>
-					<xsd:element name="ligne" type="xsd:string" minOccurs="6" maxOccurs="6">
-						<xsd:attribute name="joueur" type="xsd:boolean"/>
-						<xsd:attribute name="coup" type="xsd:integer"/>
-					</xsd:element>
-				</xsd:sequence>
-			</xsd:complexType>
-		</xsd:element>
+<xsd:element name="grille">	
+	<xsd:complexType>
+		<xsd:sequence minOccurs="7" maxOccurs="7">
+			<xsd:element name="colonne">
+				<xsd:complexType>
+					<xsd:sequence minOccurs="6" maxOccurs="6">
+						<xsd:element name="ligne">
+							<xsd:complexType>
+								<xsd:attribute name="joueur" type="xsd:string"/>
+								<xsd:attribute name="coup" type="xsd:integer"/>							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
 	</xsd:complexType>
+</xsd:element>
 
 </xsd:schema>
