@@ -28,10 +28,10 @@
 		<ligne/>
 	</colonne>
 	<colonne>
-		<ligne joueur="O" coup="1"/>
-		<ligne joueur="O" coup="2"/>
-		<ligne joueur="O" coup="3"/>
-		<ligne joueur="O" coup="4"/>
+		<ligne joueur="rouge" coup="1"/>
+		<ligne joueur="rouge" coup="2"/>
+		<ligne joueur="rouge" coup="3"/>
+		<ligne joueur="rouge" coup="4"/>
 		<ligne/>
 		<ligne/>
 	</colonne>
