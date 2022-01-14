@@ -1,0 +1,93 @@
+<svg width="unbounded" Height="unbounded"
+xmlns="http://www.w3.org/2000/svg">
+
+<rect x="50px" y="50px" width="100px" height="100px" fill="blue"/>
+<circle cx="100" cy="100" r="45" style= "fill: white"  />
+<rect x="150px" y="50px" width="100px" height="100px" fill="blue"/>
+<circle cx="200" cy="100" r="45" style= "fill: white"  />
+<rect x="250px" y="50px" width="100px" height="100px" fill="blue"/>
+<circle cx="300" cy="100" r="45" style= "fill: white"  />
+<rect x="350px" y="50px" width="100px" height="100px" fill="blue"/>
+<circle cx="400" cy="100" r="45" style= "fill: white"  />
+<rect x="450px" y="50px" width="100px" height="100px" fill="blue"/>
+<circle cx="500" cy="100" r="45" style= "fill: white"  />
+<rect x="550px" y="50px" width="100px" height="100px" fill="blue"/>
+<circle cx="600" cy="100" r="45" style= "fill: white"  />
+<rect x="650px" y="50px" width="100px" height="100px" fill="blue"/>
+<circle cx="700" cy="100" r="45" style= "fill: white"  />
+
+<rect x="50px" y="150px" width="100px" height="100px" fill="blue"/>
+<circle cx="100" cy="200" r="45" style= "fill: white"  />
+<rect x="150px" y="150px" width="100px" height="100px" fill="blue"/>
+<circle cx="200" cy="200" r="45" style= "fill: white"  />
+<rect x="250px" y="150px" width="100px" height="100px" fill="blue"/>
+<circle cx="300" cy="200" r="45" style= "fill: white"  />
+<rect x="350px" y="150px" width="100px" height="100px" fill="blue"/>
+<circle cx="400" cy="200" r="45" style= "fill: white"  />
+<rect x="450px" y="150px" width="100px" height="100px" fill="blue"/>
+<circle cx="500" cy="200" r="45" style= "fill: white"  />
+<rect x="550px" y="150px" width="100px" height="100px" fill="blue"/>
+<circle cx="600" cy="200" r="45" style= "fill: white"  />
+<rect x="650px" y="150px" width="100px" height="100px" fill="blue"/>
+<circle cx="700" cy="200" r="45" style= "fill: white"  />
+
+<rect x="50px" y="250px" width="100px" height="100px" fill="blue"/>
+<circle cx="100" cy="300" r="45" style= "fill: white"  />
+<rect x="150px" y="250px" width="100px" height="100px" fill="blue"/>
+<circle cx="200" cy="300" r="45" style= "fill: white"  />
+<rect x="250px" y="250px" width="100px" height="100px" fill="blue"/>
+<circle cx="300" cy="300" r="45" style= "fill: white"  />
+<rect x="350px" y="250px" width="100px" height="100px" fill="blue"/>
+<circle cx="400" cy="300" r="45" style= "fill: white"  />
+<rect x="450px" y="250px" width="100px" height="100px" fill="blue"/>
+<circle cx="500" cy="300" r="45" style= "fill: white"  />
+<rect x="550px" y="250px" width="100px" height="100px" fill="blue"/>
+<circle cx="600" cy="300" r="45" style= "fill: white"  />
+<rect x="650px" y="250px" width="100px" height="100px" fill="blue"/>
+<circle cx="700" cy="300" r="45" style= "fill: white"  />
+
+<rect x="50px" y="350px" width="100px" height="100px" fill="blue"/>
+<circle cx="100" cy="400" r="45" style= "fill: white"  />
+<rect x="150px" y="350px" width="100px" height="100px" fill="blue"/>
+<circle cx="200" cy="400" r="45" style= "fill: white"  />
+<rect x="250px" y="350px" width="100px" height="100px" fill="blue"/>
+<circle cx="300" cy="400" r="45" style= "fill: white"  />
+<rect x="350px" y="350px" width="100px" height="100px" fill="blue"/>
+<circle cx="400" cy="400" r="45" style= "fill: white"  />
+<rect x="450px" y="350px" width="100px" height="100px" fill="blue"/>
+<circle cx="500" cy="400" r="45" style= "fill: white"  />
+<rect x="550px" y="350px" width="100px" height="100px" fill="blue"/>
+<circle cx="600" cy="400" r="45" style= "fill: white"  />
+<rect x="650px" y="350px" width="100px" height="100px" fill="blue"/>
+<circle cx="700" cy="400" r="45" style= "fill: white"  />
+
+<rect x="50px" y="450px" width="100px" height="100px" fill="blue"/>
+<circle cx="100" cy="500" r="45" style= "fill: white"  />
+<rect x="150px" y="450px" width="100px" height="100px" fill="blue"/>
+<circle cx="200" cy="500" r="45" style= "fill: white"  />
+<rect x="250px" y="450px" width="100px" height="100px" fill="blue"/>
+<circle cx="300" cy="500" r="45" style= "fill: white"  />
+<rect x="350px" y="450px" width="100px" height="100px" fill="blue"/>
+<circle cx="400" cy="500" r="45" style= "fill: white"  />
+<rect x="450px" y="450px" width="100px" height="100px" fill="blue"/>
+<circle cx="500" cy="500" r="45" style= "fill: white"  />
+<rect x="550px" y="450px" width="100px" height="100px" fill="blue"/>
+<circle cx="600" cy="500" r="45" style= "fill: white"  />
+<rect x="650px" y="450px" width="100px" height="100px" fill="blue"/>
+<circle cx="700" cy="500" r="45" style= "fill: white"  />
+
+<rect x="50px" y="550px" width="100px" height="100px" fill="blue"/>
+<circle cx="100" cy="600" r="45" style= "fill: white"  />
+<rect x="150px" y="550px" width="100px" height="100px" fill="blue"/>
+<circle cx="200" cy="600" r="45" style= "fill: white"  />
+<rect x="250px" y="550px" width="100px" height="100px" fill="blue"/>
+<circle cx="300" cy="600" r="45" style= "fill: white"  />
+<rect x="350px" y="550px" width="100px" height="100px" fill="blue"/>
+<circle cx="400" cy="600" r="45" style= "fill: white"  />
+<rect x="450px" y="550px" width="100px" height="100px" fill="blue"/>
+<circle cx="500" cy="600" r="45" style= "fill: white"  />
+<rect x="550px" y="550px" width="100px" height="100px" fill="blue"/>
+<circle cx="600" cy="600" r="45" style= "fill: white"  />
+<rect x="650px" y="550px" width="100px" height="100px" fill="blue"/>
+<circle cx="700" cy="600" r="45" style= "fill: white"  />
+</svg>
