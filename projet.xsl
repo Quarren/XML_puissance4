@@ -10,12 +10,12 @@ xmlns="http://www.w3.org/2000/svg">
       media-type="/puissance4.svg" />
 
     <xsl:template match="colonne">
-        <xsl:for-each select="ligne">
-            <svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000">
-                <rect x="10" y="10" width="{width}" 
-                height="{height}" fill="red" stroke="black"/>             
-            </svg>
-        </xsl:for-each>
+           <xsl:for-each select="ligne[(@joueur='rouge') and (@coup mod 2 = 0)]">
+               Erreur: Les numéros de tour du joueur rouge doivent être impairs
+           </xsl:for-each>
+           <xsl:for-each select="ligne[(@joueur='jaune') and (@coup mod 2 = 1)]">
+               Erreur: Les numéros de tour du joueur jaune doivent être pairs
+           </xsl:for-each>
     </xsl:template>
 
 </xsl:stylesheet>
