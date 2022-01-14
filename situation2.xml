@@ -3,60 +3,60 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="projet.xsd
 ">
-	<colonne>
-		<ligne/>
-		<ligne />
-		<ligne/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
+	<colonne numCol="1">
+		<ligne numLigne="1"/>
+		<ligne numLigne="2"/>
+		<ligne numLigne="3"/>
+		<ligne numLigne="4"/>
+		<ligne numLigne="5"/>
+		<ligne numLigne="6"/>
 	</colonne>
-	<colonne>
-		<ligne joueur="jaune" coup="2"/>
-		<ligne joueur="jaune" coup="4"/>
-		<ligne joueur="jaune" coup="8"/>
-		<ligne joueur="jaune" coup="10"/>
-		<ligne/>
-		<ligne/>
+	<colonne numCol="2">
+		<ligne numLigne="1" joueur="jaune" coup="2"/>
+		<ligne numLigne="2" joueur="jaune" coup="4"/>
+		<ligne numLigne="3" joueur="jaune" coup="8"/>
+		<ligne numLigne="4" joueur="jaune" coup="10"/>
+		<ligne numLigne="5"/>
+		<ligne numLigne="6"/>
 	</colonne>
-	<colonne>
-		<ligne joueur="rouge" coup="1"/>
-		<ligne joueur="rouge" coup="3"/>
-		<ligne joueur="rouge" coup="5"/>
-		<ligne joueur="jaune" coup="6"/>
-		<ligne/>
-		<ligne/>
+	<colonne numCol="3">
+		<ligne numLigne="1" joueur="rouge" coup="1"/>
+		<ligne numLigne="2" joueur="rouge" coup="3"/>
+		<ligne numLigne="3" joueur="rouge" coup="5"/>
+		<ligne numLigne="4" joueur="jaune" coup="6"/>
+		<ligne numLigne="5"/>
+		<ligne numLigne="6"/>
 	</colonne>
-	<colonne>
-		<ligne joueur="rouge" coup="7"/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
+	<colonne numCol="4">
+		<ligne numLigne="1" joueur="rouge" coup="7"/>
+		<ligne numLigne="2"/>
+		<ligne numLigne="3"/>
+		<ligne numLigne="4"/>
+		<ligne numLigne="5"/>
+		<ligne numLigne="6"/>
 	</colonne>
-	<colonne>
-		<ligne joueur="rouge" coup="9"/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
+	<colonne numCol="5">
+		<ligne numLigne="1" joueur="rouge" coup="9"/>
+		<ligne numLigne="2"/>
+		<ligne numLigne="3"/>
+		<ligne numLigne="4"/>
+		<ligne numLigne="5"/>
+		<ligne numLigne="6"/>
 	</colonne>
-	<colonne>
-		<ligne/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
+	<colonne numCol="6">
+		<ligne numLigne="1"/>
+		<ligne numLigne="2"/>
+		<ligne numLigne="3"/>
+		<ligne numLigne="4"/>
+		<ligne numLigne="5"/>
+		<ligne numLigne="6"/>
 	</colonne>
-	<colonne>
-		<ligne/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
-		<ligne/>
+	<colonne numCol="7">
+		<ligne numLigne="1"/>
+		<ligne numLigne="2"/>
+		<ligne numLigne="3"/>
+		<ligne numLigne="4"/>
+		<ligne numLigne="5"/>
+		<ligne numLigne="6"/>
 	</colonne>
 </grille>
