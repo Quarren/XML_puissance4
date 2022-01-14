@@ -11,10 +11,10 @@ xmlns="http://www.w3.org/2000/svg">
 
     <xsl:template match="colonne"> <!-- on gère la triche -->
            <xsl:for-each select="ligne[(@joueur='rouge') and (@coup mod 2 = 0)]">
-               Erreur: Les numéros de tour du joueur rouge doivent être impairs
+               Erreur: Les numeros de tour du joueur rouge doivent etre impairs
            </xsl:for-each>
            <xsl:for-each select="ligne[(@joueur='jaune') and (@coup mod 2 = 1)]">
-               Erreur: Les numéros de tour du joueur jaune doivent être pairs
+               Erreur: Les numeros de tour du joueur jaune doivent etre pairs
            </xsl:for-each>
     </xsl:template>
 
