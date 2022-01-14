@@ -12,7 +12,7 @@
 		<ligne/>
 	</colonne>
 	<colonne>
-		<ligne joueur="X" coup="2"/>
+		<ligne joueur="jaune" coup="2"/>
 		<ligne/>
 		<ligne/>
 		<ligne/>
@@ -20,15 +20,15 @@
 		<ligne/>
 	</colonne>
 	<colonne>
-		<ligne joueur="O" coup="1"/>
-		<ligne joueur="O" coup="3"/>
-		<ligne joueur="O" coup="5"/>
-		<ligne joueur="O" coup="7"/>
+		<ligne joueur="rouge" coup="1"/>
+		<ligne joueur="rouge" coup="3"/>
+		<ligne joueur="rouge" coup="5"/>
+		<ligne joueur="rouge" coup="7"/>
 		<ligne/>
 		<ligne/>
 	</colonne>
 	<colonne>
-		<ligne joueur="X" coup="4"/>
+		<ligne joueur="jaune" coup="4"/>
 		<ligne/>
 		<ligne/>
 		<ligne/>
@@ -36,7 +36,7 @@
 		<ligne/>
 	</colonne>
 	<colonne>
-		<ligne joueur="X" coup="6"/>
+		<ligne joueur="jaune" coup="6"/>
 		<ligne/>
 		<ligne/>
 		<ligne/>
