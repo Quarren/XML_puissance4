@@ -7,7 +7,6 @@ elementFormDefault="qualified">
 			<xsd:sequence minOccurs="7" maxOccurs="7">
 				<xsd:element name="colonne">
 					<xsd:complexType>
-						<xsd:attribute name="numCol" type="xsd:nonNegativeInteger"/>
 						<xsd:sequence minOccurs="6" maxOccurs="6">
 							<xsd:element name="ligne">
 								<xsd:complexType>
@@ -24,6 +23,7 @@ elementFormDefault="qualified">
 								</xsd:complexType>
 							</xsd:element>
 						</xsd:sequence>
+						<xsd:attribute name="numCol" type="xsd:nonNegativeInteger"/>
 					</xsd:complexType>
 				</xsd:element>
 			</xsd:sequence>
