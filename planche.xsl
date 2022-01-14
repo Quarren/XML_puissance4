@@ -9,13 +9,27 @@ xmlns="http://www.w3.org/2000/svg">
       doctype-system="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
       media-type="/puissance4.svg" />
 
-<xsl:template match="colonne">
-        <xsl:for-each select="ligne[@joueur='rouge']">
+      <xsl:variable name="ncol" select="colonne[@numCol]"/>  
+      <xsl:variable name="nligne" select="ligne[@numLigne]"/>  
+
+      <xsl:template name="colonne" match="$ncol">
+        <xsl:for-each select="ligne">
             <svg>
-                <rect x="50px" y="50px" width="100px" height="100px" fill="blue"/>
-                <circle cx="100" cy="100" r="45" style= "fill: yellow"  />
-            </svg>
+                <rect x="$nligne * 50" y="$nligne * 50" width="100px" height="100px" fill="blue"/>
+                <circle cx="$nligne * 100" cy=" $nligne * 100" r="45" style= "fill: yellow"  />
+            </svg>    
         </xsl:for-each>
-    </xsl:template>
+      </xsl:template>
+
+
+
+<!--
+    <xsl:variable name="nligne" select="ligne[@numLigne]">
+        <svg>
+            <rect x="$nligne * 50" y="$nligne * 50" width="100px" height="100px" fill="blue"/>
+            <circle cx="$nligne * 100" cy=" $nligne * 100" r="45" style= "fill: yellow"  />
+        </svg>
+    </xsl:variable>
+-->
 
 </xsl:stylesheet>
