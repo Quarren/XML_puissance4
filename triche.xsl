@@ -18,6 +18,23 @@ xmlns="http://www.w3.org/2000/svg">
            </xsl:for-each>
     </xsl:template>
 
+
+    <!-- autant de pions rouges que jaunes, à 1 près -->
+    <xsl:template match="/">
+        <xsl:variable name="nombre-rouge" select="ligne[@joueur='rouge']" />
+        <xsl:variable name="nombre-jaune" select="ligne[@joueur='jaune']" />
+
+        <xsl:if test="($nombre-rouge - $nombre-jaune) > 1">
+            Erreur : trop de pions rouges
+        </xsl:if>
+
+        <xsl:if test="($nombre-jaune - $nombre-jaune) > 1">
+            Erreur : trop de pions jaunes
+        </xsl:if>
+
+        <xsl:apply-templates />
+    </xsl:template>
+
     <!-- <xsl:template match="colonne">
         <xsl:for-each select="ligne[@joueur='rouge']">
             <svg>
